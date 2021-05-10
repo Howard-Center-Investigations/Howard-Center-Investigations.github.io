@@ -1,0 +1,44 @@
+---
+title: "Data analysis for ‘X story'"
+output:
+  html_document:
+    theme: cerulean
+    code_folding: hide
+    toc: true
+    toc_depth: 3
+  pdf_document: default
+---
+
+#### X, Y and Sean Mussenden | Howard Center for Investigative Journalism
+#### 05/10/2021
+
+### Introduction
+This R markdown document describes a portion of the data analysis for an investigative project examining the effectiveness of worker protections — or lack thereof — during the COVID-19 pandemic. 
+
+The project was created in partnership with the University of Maryland Philip Merrill College of Journalism, University of Arkansas, Boston University and Big Local News at Stanford University. 
+
+For each sentence in the published stories based on Howard Center data analysis, this document provides the original fact, the code and code output that support that fact, and an explanation where necessary.
+
+Here are links to stories published by participating organizations:
+
+**Capital News Service**
+* [title]()
+* [title]()
+* [title]()
+* [title]()
+
+### Links to Data, Cleaning and Analysis Scripts, RMarkdown HTML Pages
+* The entire codebase for this analysis, including R markdown cleaning and analysis scripts – and the raw and cleaned data needed to reproduce the cleaning and analysis, is available through the [Howard Center’s GitHub](https://github.com/Howard-Center-Investigations/osha_investigation).
+
+* [Repo Readme](https://github.com/Howard-Center-Investigations/osha_investigation)
+
+* Github Repo Data
+  * [Fuzzy Matching Script]()
+  * [Github Walmart]()
+  * [Github Seafood]()
+  * [Github Arkansas]()
+  
+* A site with HTML versions of the R markdown files, for fact-checking the completed the analysis.
+  * [HTML Walmart analysis]() 
+  * [HTML migrant workers analysis]()
+
