@@ -1,0 +1,58 @@
+
+
+/* Set Body Style */
+body{
+  font-family: Montserrat, serif;
+  font-size: 1em;
+
+}
+
+/* nav bar space before header */
+.navbar{
+
+  margin-bottom: 3em;
+}
+
+.article-headline{
+
+  text-align: center;
+
+  font-size: 2em
+}
+
+.chapter-headline{
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+.byline{
+  font-size: .75em;
+  color: grey;
+  text-align: center;
+  margin-bottom: 3em;
+
+}
+.headline{
+  font-weight: bold;
+}
+
+img{ height: auto;
+      max-width: 100%;
+
+}
+
+.image-source{
+
+  color: #666;
+  font-size: 10px;
+}
+/* formats image description, makes smaller */
+.image-description{
+font-size: 10px;
+}
+
+.footer {
+  text-align: center;
+  background-color: #fc9e2b;
+
+}
