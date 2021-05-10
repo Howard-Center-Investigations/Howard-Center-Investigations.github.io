@@ -32,15 +32,11 @@ Here are links to stories published by participating organizations:
 
 * [Repo Readme](https://github.com/Howard-Center-Investigations/osha_investigation)
 
-* Data
+* Github Repo Data
   * [Fuzzy Matching Script]()
-  * [Raw data Walmart]()
-  * [Raw data Seafood]()
-  
-* Analysis
-  * [Analysis for worker safety story]()
-  * [Analysis for migrant sidebar]()
-  * [Analysis for Arkansas sidebar]()
+  * [Github Walmart]()
+  * [Github Seafood]()
+  * [Github Arkansas]()
   
 * A site with HTML versions of the R markdown files, for fact-checking the completed the analysis.
   * [HTML Walmart analysis]() 
