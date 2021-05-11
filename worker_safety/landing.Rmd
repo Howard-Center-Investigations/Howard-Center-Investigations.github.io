@@ -33,7 +33,7 @@ Here are links to stories published by participating organizations:
 * [Repo Readme](https://github.com/Howard-Center-Investigations/osha_investigation)
 
 * Github Repo Data
-  * [Fuzzy Matching Script]()
+  * [Fuzzy Matching Script](https://howard-center-investigations.github.io/worker_safety/README.md)
   * [Github Walmart]()
   * [Github Seafood]()
   * [Github Arkansas]()
