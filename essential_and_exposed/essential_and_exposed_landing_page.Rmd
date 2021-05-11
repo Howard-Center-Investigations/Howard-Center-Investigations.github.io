@@ -18,7 +18,7 @@ Here are links to stories published by participating organizations:
 
 **Capital News Service**
 
-* ["As Walmart sales soared, workers got scant COVID-19 protection from OSHA"](https://cnsmaryland.org/2021/05/06/as-walmart-sales-soared-workers-got-scant-covid-19-protection-from-osha/)
+* [As Walmart sales soared, workers got scant COVID-19 protection from OSHA](https://cnsmaryland.org/2021/05/06/as-walmart-sales-soared-workers-got-scant-covid-19-protection-from-osha/)
 * [Protected: US deems migrant seafood workers ‘essential’ but limits their COVID-19 protections](https://cnsmaryland.org/2021/05/06/us-deems-migrant-seafood-workers-essential-but-limits-their-covid-19-protections/)
 * [title]()
 * [title]()
@@ -27,7 +27,7 @@ Here are links to stories published by participating organizations:
 
 A site with HTML versions of the R markdown files, for fact-checking the completed the analysis.
 
-  * ["As Walmart sales soared, workers got scant COVID-19 protection from OSHA"]()
+  * [As Walmart sales soared, workers got scant COVID-19 protection from OSHA]()
   * [Protected: US deems migrant seafood workers ‘essential’ but limits their COVID-19 protections]()
   
 ## Github Links
