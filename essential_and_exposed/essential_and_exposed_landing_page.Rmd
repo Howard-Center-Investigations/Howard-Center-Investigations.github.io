@@ -1,5 +1,5 @@
 ---
-title: 'Data Analysis for "Esssential and Exposed"'
+title: 'Data Analysis for "Essential and Exposed"'
 output:
   html_document:
     theme: cerulean
