@@ -7,35 +7,29 @@ output:
   pdf_document: default
 ---
 ## Introduction
-This R markdown document shows the data analysis for the series ["Essential and Exposed"](https://cnsmaryland.org/essential-and-exposed/), an investigative project examining the effectiveness of worker protections — or lack thereof — during the COVID-19 pandemic. 
+This R markdown document describes the data analysis for the series ["Essential and Exposed"](https://cnsmaryland.org/essential-and-exposed/), an investigative project examining the effectiveness of worker protections during the COVID-19 pandemic. 
 
 The project was created in partnership with the University of Maryland Philip Merrill College of Journalism, University of Arkansas, Boston University and Big Local News at Stanford University. 
 
-For each sentence in the published stories based on Howard Center data analysis. This document provides links to each story and fact check documents that show the original fact, the code and code output that support that fact, and an explanation where necessary.
+For each sentence based on Howard Center data analysis in published stories, we have provided code we used to generate our findings and additional context. 
 
-## Investigations
-Here are links to stories published by participating organizations:
+## Published Stories
 
-**Capital News Service**
-
-* [As Walmart sales soared, workers got scant COVID-19 protection from OSHA](https://cnsmaryland.org/2021/05/06/as-walmart-sales-soared-workers-got-scant-covid-19-protection-from-osha/)
+* [Protected: As Walmart sales soared, workers got scant COVID-19 protection from OSHA](https://cnsmaryland.org/2021/05/06/as-walmart-sales-soared-workers-got-scant-covid-19-protection-from-osha/)
 * [Protected: US deems migrant seafood workers ‘essential’ but limits their COVID-19 protections](https://cnsmaryland.org/2021/05/06/us-deems-migrant-seafood-workers-essential-but-limits-their-covid-19-protections/)
-* [title]()
-* [title]()
+* [Airport workers faced COVID risks as airlines advertised passenger safety measures](https://cnsmaryland.org/2021/05/11/airport-workers-faced-covid-risks-as-airlines-advertised-passenger-safety-measures/)
+* [Protected: At least 9,000 Arkansas workers caught COVID-19 as pandemic overwhelmed regulators, companies](https://cnsmaryland.org/2021/05/06/at-least-9000-arkansas-workers-caught-covid-19-as-pandemic-overwhelmed-regulators-companies/)
+* [Protected: Massachusetts health departments overwhelmed, unprepared to protect workers](https://cnsmaryland.org/2021/05/06/massachusetts-health-departments-overwhelmed-unprepared-to-protect-workers/)
 
-## Fact Checks
+## Fact Check Data Notebooks
 
 A site with HTML versions of the R markdown files, for fact-checking the completed the analysis.
 
-  * [As Walmart sales soared, workers got scant COVID-19 protection from OSHA]()
+  * [Protected: As Walmart sales soared, workers got scant COVID-19 protection from OSHA]()
   * [Protected: US deems migrant seafood workers ‘essential’ but limits their COVID-19 protections]()
+  * [Airport workers faced COVID risks as airlines advertised passenger safety measures]()
   
-## Github Links
 
-  * [Fuzzy Matching Script](https://howard-center-investigations.github.io/essential_and_exposed/README.md)
-  * [Github Walmart]()
-  * [Github Seafood]()
-  * [Github Arkansas]()
   
 
 
