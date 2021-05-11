@@ -1,5 +1,5 @@
 ---
-title: 'Data analysis for "Esssential and Exposed"'
+title: 'Data Analysis for "Esssential and Exposed"'
 output:
   html_document:
     theme: cerulean
@@ -7,7 +7,7 @@ output:
   pdf_document: default
 ---
 ## Introduction
-This R markdown document describes the data analysis for the series ["Essential and Exposed"](https://cnsmaryland.org/essential-and-exposed/), an investigative project examining the effectiveness of worker protections during the COVID-19 pandemic. 
+This R markdown document describes the data analysis for the series ["Essential and Exposed,"](https://cnsmaryland.org/essential-and-exposed/) an investigative project examining the effectiveness of worker protections during the COVID-19 pandemic. 
 
 The project was created in partnership with the University of Maryland Philip Merrill College of Journalism, University of Arkansas, Boston University and Big Local News at Stanford University. 
 
@@ -15,19 +15,19 @@ For each sentence based on Howard Center data analysis in published stories, we 
 
 ## Published Stories
 
-* [Protected: As Walmart sales soared, workers got scant COVID-19 protection from OSHA](https://cnsmaryland.org/2021/05/06/as-walmart-sales-soared-workers-got-scant-covid-19-protection-from-osha/)
-* [Protected: US deems migrant seafood workers ‘essential’ but limits their COVID-19 protections](https://cnsmaryland.org/2021/05/06/us-deems-migrant-seafood-workers-essential-but-limits-their-covid-19-protections/)
+* [As Walmart sales soared, workers got scant COVID-19 protection from OSHA](https://cnsmaryland.org/2021/05/06/as-walmart-sales-soared-workers-got-scant-covid-19-protection-from-osha/)
+* [US deems migrant seafood workers ‘essential’ but limits their COVID-19 protections](https://cnsmaryland.org/2021/05/06/us-deems-migrant-seafood-workers-essential-but-limits-their-covid-19-protections/)
 * [Airport workers faced COVID risks as airlines advertised passenger safety measures](https://cnsmaryland.org/2021/05/11/airport-workers-faced-covid-risks-as-airlines-advertised-passenger-safety-measures/)
-* [Protected: At least 9,000 Arkansas workers caught COVID-19 as pandemic overwhelmed regulators, companies](https://cnsmaryland.org/2021/05/06/at-least-9000-arkansas-workers-caught-covid-19-as-pandemic-overwhelmed-regulators-companies/)
-* [Protected: Massachusetts health departments overwhelmed, unprepared to protect workers](https://cnsmaryland.org/2021/05/06/massachusetts-health-departments-overwhelmed-unprepared-to-protect-workers/)
+* [At least 9,000 Arkansas workers caught COVID-19 as pandemic overwhelmed regulators, companies](https://cnsmaryland.org/2021/05/06/at-least-9000-arkansas-workers-caught-covid-19-as-pandemic-overwhelmed-regulators-companies/)
+* [Massachusetts health departments overwhelmed, unprepared to protect workers](https://cnsmaryland.org/2021/05/06/massachusetts-health-departments-overwhelmed-unprepared-to-protect-workers/)
 
 ## Fact Check Data Notebooks
 
 A site with HTML versions of the R markdown files, for fact-checking the completed the analysis.
 
-  * [Protected: As Walmart sales soared, workers got scant COVID-19 protection from OSHA](https://howard-center-investigations.github.io/essential_and_exposed/osha_walmart/osha_walmart_fact_check.html)
-  * [Protected: US deems migrant seafood workers ‘essential’ but limits their COVID-19 protections](https://howard-center-investigations.github.io/essential_and_exposed/migrant_seafood/migrant_seafood_fact_check.html)
-  * [Airport workers faced COVID risks as airlines advertised passenger safety measures](https://howard-center-investigations.github.io/essential_and_exposed/in_the_air/in_the_air_fact_check.html)
+  * [As Walmart sales soared, workers got scant COVID-19 protection from OSHA](https://howard-center-investigations.github.io/essential_and_exposed/osha_walmart/index.html)
+  * [US deems migrant seafood workers ‘essential’ but limits their COVID-19 protections](https://howard-center-investigations.github.io/essential_and_exposed/migrant_seafood/index.html)
+  * [Airport workers faced COVID risks as airlines advertised passenger safety measures](https://howard-center-investigations.github.io/essential_and_exposed/airline_industry/index.html)
   
 
   
