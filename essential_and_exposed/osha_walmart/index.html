@@ -715,7 +715,9 @@ walmart #1492
 </div>
 <div id="fact-across-10-states-one-quarter-of-walmart-owned-facilities-had-covid-19-cases-cq-full-ap" class="section level3">
 <h3>FACT: Across 10 states, one quarter of Walmart-owned facilities had COVID-19 cases [CQ | Full &amp; AP]</h3>
-<p>“The Walmart where Kunz worked was one of at least 151 Walmart facilities in 10 states with available data where multiple COVID-19 illnesses were recorded, a reporting consortium led by the Howard Center for Investigative Journalism at the University of Maryland, found. That’s one quarter of the company’s stores and distribution centers in those states.”</p>
+<p>“The Walmart where Kunz worked was one of at least 151 Walmart facilities in 10 states with available data where multiple COVID-19 illnesses were recorded, a reporting consortium led by the Howard Center for Investigative Journalism at the University of Maryland, found.”</p>
+<p>Full: “That’s one quarter of the company’s stores and distribution centers in those states.”</p>
+<p>AP: “On average, one quarter of the company’s stores and distribution centers in those states were affected.”</p>
 <div id="explanation-1" class="section level4">
 <h4>Explanation</h4>
 <p>To produce this finding, we identified each unique Walmart facility where state health department data showed multiple COVID-19 cases among employees (in 10 states with available data). We compared that to the <a href="https://corporate.walmart.com/our-story/locations/united-states">list and count of Walmart facilities in each state</a>. For any locations where the exact identity of a store was ambiguous, we chose the grouping method that led to the lowest number of unique stores affected by COVID-19, and included that minimum number in our overall total.</p>
@@ -869,14 +871,13 @@ unique_walmarts_with_covid_cases = sum(num_co_outbreaks_20210324_walmart_unique,
                                        num_vt_outbreaks_20210211_walmart_unique, 
                                        num_wa_outbreaks_walmart_unique)
 
-
 # Get number of Walmart owned stores and distribution centers in each state as of 2021-05-03
 # https://corporate.walmart.com/our-story/locations/united-states?multi=false
 
 
 ar_walmarts = 141
-ks_walmarts = 84
 co_walmarts = 108
+ks_walmarts = 84
 me_walmarts = 26
 nm_walmarts = 54
 or_walmarts = 46
@@ -885,20 +886,33 @@ ut_walmarts = 62
 vt_walmarts = 6
 wa_walmarts = 68
 
-total_walmarts = sum(wa_walmarts, 
-                     ar_walmarts,
+total_walmarts = sum(ar_walmarts,
+                     co_walmarts,
                      ks_walmarts,
+                     me_walmarts,
+                     nm_walmarts,
+                     or_walmarts,
                      ri_walmarts,
                      ut_walmarts,
                      vt_walmarts,
-                     co_walmarts,
-                     or_walmarts,
-                     nm_walmarts,
-                     me_walmarts
+                     wa_walmarts
                      )
 
 # States where we received company level reports of COVID-19 in the workplace
 ls_company_level_outbreak_data = list(ri_outbreaks_20210225,vt_outbreaks_20210211, ut_outbreaks_20210319, or_outbreaks_20210324, me_outbreaks_2021026, ks_outbreaks_20200922_to_20210210, co_outbreaks_20210324, nm_covid_occurrences_20210321, ar_occurrences, washington_walmarts)
+
+average_percent_walmarts_affected_by_covid = mean(c((num_ar_occurrences_walmart_unique/ar_walmarts),
+     (num_ks_outbreaks_20200922_to_20210210_walmart_unique/ks_walmarts),
+     (num_co_outbreaks_20210324_walmart_unique/co_walmarts), 
+     (num_me_outbreaks_2021026_unique_walmart/me_walmarts), 
+     (num_nm_covid_occurrences_20210321_walmart_unique/nm_walmarts), 
+     (num_or_outbreaks_20210324_walmart_unique/or_walmarts), 
+     (num_ri_outbreaks_20210225_walmart_unique/ri_walmarts), 
+     (num_ut_outbreaks_20210319_walmart_unique/ut_walmarts), 
+     (num_vt_outbreaks_20210211_walmart_unique/vt_walmarts),
+     (num_wa_outbreaks_walmart_unique/wa_walmarts)))*100
+
+table_average_percent_walmarts_affected_by_covid = tibble(average_walmarts_affected_by_covid = round(average_percent_walmarts_affected_by_covid,2))
 
 # Results --------------------
 pct_walmarts_with_covid_cases = tibble( number_of_states = length(ls_company_level_outbreak_data), &#39;unique_walmarts_with_covid_cases&#39; = unique_walmarts_with_covid_cases, &quot;total_walmarts&quot; = total_walmarts) %&gt;% 
@@ -939,6 +953,28 @@ pct_walmarts_with_covid_cases
 </td>
 <td style="text-align:right;">
 25
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<pre class="r"><code>output_formatted_table(table_average_percent_walmarts_affected_by_covid, &quot;On average, one quarter of the company&#39;s stores and distribution centers in those states were affected&quot;)</code></pre>
+<div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:200px; overflow-x: scroll; width:100%; ">
+<table class="table table-striped table-hover table-condensed table-responsive" style="font-size: 14px; margin-left: auto; margin-right: auto;">
+<caption style="font-size: initial !important;">
+On average, one quarter of the company’s stores and distribution centers in those states were affected
+</caption>
+<thead>
+<tr>
+<th style="text-align:right;position: sticky; top:0; background-color: #FFFFFF;position: sticky; top:0; background-color: #FFFFFF;">
+average_walmarts_affected_by_covid
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right;">
+25.17
 </td>
 </tr>
 </tbody>
