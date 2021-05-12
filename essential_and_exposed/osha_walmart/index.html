@@ -912,7 +912,7 @@ average_percent_walmarts_affected_by_covid = mean(c((num_ar_occurrences_walmart_
      (num_vt_outbreaks_20210211_walmart_unique/vt_walmarts),
      (num_wa_outbreaks_walmart_unique/wa_walmarts)))*100
 
-table_average_percent_walmarts_affected_by_covid = tibble(average_walmarts_affected_by_covid = round(average_percent_walmarts_affected_by_covid,2))
+table_average_percent_walmarts_affected_by_covid = tibble(avg_pct_walmarts_with_covid_cases = round(average_percent_walmarts_affected_by_covid,2))
 
 # Results --------------------
 pct_walmarts_with_covid_cases = tibble( number_of_states = length(ls_company_level_outbreak_data), &#39;unique_walmarts_with_covid_cases&#39; = unique_walmarts_with_covid_cases, &quot;total_walmarts&quot; = total_walmarts) %&gt;% 
@@ -967,7 +967,7 @@ On average, one quarter of the company’s stores and distribution centers in th
 <thead>
 <tr>
 <th style="text-align:right;position: sticky; top:0; background-color: #FFFFFF;position: sticky; top:0; background-color: #FFFFFF;">
-average_walmarts_affected_by_covid
+avg_pct_walmarts_with_covid_cases
 </th>
 </tr>
 </thead>
